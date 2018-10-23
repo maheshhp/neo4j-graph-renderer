@@ -3,13 +3,13 @@
   "version": "0.1.6",
   "main": "lib/index.js",
   "author": "Joanna Bitton",
-  "homepage": "https://github.com/jbitton/neo4j-graph-renderer",
+  "homepage": "https://github.com/saurav-sahu/neo4j-graph-renderer",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jbitton/neo4j-graph-renderer.git"
+    "url": "https://github.com/saurav-sahu/neo4j-graph-renderer.git"
   },
   "bugs": {
-    "url": "https://github.com/jbitton/neo4j-graph-renderer/issues"
+    "url": "https://github.com/saurav-sahu/neo4j-graph-renderer/issues"
   },
   "license": "MIT",
   "dependencies": {
