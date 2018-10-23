@@ -1,13 +1,7 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import registerServiceWorker from './registerServiceWorker';
 import Neo4jGraphRenderer from 'Neo4jGraphRenderer';
+import { renderResult } from "./node_modules/Neo4jGraphRenderer/assets/render-result";
 
-const App = () => (
-  <div>
-    <Neo4jGraphRenderer url="http://localhost:7474" user="neo4j" password="password" query="MATCH (n)-[r]->(m) RETURN n,r,m"/>
-  </div>
-);
-
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+export default {
+  renderResult,
+  Neo4jGraphRenderer
+};
